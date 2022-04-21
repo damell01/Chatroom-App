@@ -34,12 +34,24 @@ socket.emit("chat",{
 app.querySelector(".chat-screen #message-input").value=" ";
 
 } ) ;
+app.querySelector(".chat-screen #exit-chat").addEventListener("click",function(){
+    socket.emit("exituser",uame) ;
+    window.location.href= window.location.href ;
+} )
+socket.on("update",function(update){
+renderMessage("update",update);
+}) ;
+socket.on("chat",function(update){
+    renderMessage("other",message);
+    }) ;
+
+
 function renderMessage (type,message){
 
     let messageContainer= app.querySelector(".chat-screen .messages");
     if (type== "my") 
-    [
-        let el= document.createElement("div"); 
+    {
+        let el  = document.createElement("div"); 
         el.setAttribute("class","message my-message") ;
 el.innerHTML= 
 <div>
