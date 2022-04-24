@@ -10,4 +10,3 @@ SCREENSHOTS:
 <img width="1436" alt="Screen Shot 2022-04-24 at 4 11 05 PM" src="https://user-images.githubusercontent.com/58995862/164997345-9eaeb49c-6cae-4c2f-b0e0-2e7668653e0d.png">
 
 
-<img width="1423" alt="Screen Shot 2022-04-24 at 4 10 42 PM" src="https://user-images.githubusercontent.com/58995862/164997351-8a0c1d87-2b95-4412-8448-b256b4fc5cba.png">
